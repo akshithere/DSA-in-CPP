@@ -13,3 +13,12 @@
 
 ## 1.3 C++ STL
 - Learnt about all the basic reuired STL Algorithms, Containers and Iterators
+
+## 1.4 Basic Mathematical Concepts
+- Extraction of digits (Basic Number System)
+- Reverse a number
+- Palindrome Number
+- Armstrong Number
+- Find all divisors
+- Check Prime
+- Find greatest common divisor (Brute Force) -> (Optimal Brute Force) -> (Eucledian Algorithm)
