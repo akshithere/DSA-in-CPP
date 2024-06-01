@@ -16,6 +16,8 @@ int main(){
     // But instead of manually subtracting each we noticed that what we are eventually ending up
     // doing everytim is just sime gcd(a,b) = gcd((a%b),b) if a > b till one of the number becomes zero
 
+
+    // TC -> O(Log fi(min(a,b)))
     int a,b;
     cout << "Enter a and b: " << "\n";
     cin >> a >> b;
@@ -23,7 +25,7 @@ int main(){
     while(a != 0 || b != 0){
         if(a > b) a = a % b;
         else b = b % a;
-        
+
         if(a == 0) cout << "gcd is " << b << "\n";
         if(b == 0) cout << "gcd is " << a << "\n";
     }

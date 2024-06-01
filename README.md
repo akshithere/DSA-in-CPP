@@ -22,3 +22,16 @@
 - Find all divisors
 - Check Prime
 - Find greatest common divisor (Brute Force) -> (Optimal Brute Force) -> (Eucledian Algorithm)
+
+## 1.5 Basic Recursion
+- Understood the dry run 
+- Printed normally till 1 to N
+- printed normally till N to 1
+- printed 1 to N using backtracking method
+- printed N to 1 using backtracking method
+- understood parameterised and functional recursion
+- found summation till N using parameterised and functional recursion
+- found factorial using functional recursion
+- reversed an array using func. recursion
+- checked if a string is palindrome or not by functional recursion
+- printed nth fibonacci element using both loop and recursion
