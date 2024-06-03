@@ -35,3 +35,16 @@
 - reversed an array using func. recursion
 - checked if a string is palindrome or not by functional recursion
 - printed nth fibonacci element using both loop and recursion
+
+## 1.6 Basic Hashing
+- Did basic hashing learnt about why hashing?
+- when we need frquent access of elements then brute force will give O(Q*N) of TC
+- To avoid it we used Hashing with Hash array
+- Counted frequency of elements in an aray using hashing
+- Counted freqency of characters in a string
+- Did hashing using maps and unorder map
+- Found when to use which
+
+# 2. Basic Sorting Techniques
+## 2.1 Selection Sort, Bubble Sort, Insertion Sort
+- Understool all 3 algorithms intiution and how they were implemented.
