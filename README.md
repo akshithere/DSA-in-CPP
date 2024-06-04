@@ -46,5 +46,10 @@
 - Found when to use which
 
 # 2. Basic Sorting Techniques
+
 ## 2.1 Selection Sort, Bubble Sort, Insertion Sort
 - Understool all 3 algorithms intiution and how they were implemented.
+
+## 2.2 Merge and Quick Sort (Recursive D&C algorithms)
+- Understood the new 2 D&C recursive algorithms i.e merge and quick sort
+- Revised all 5 algorithms the next day. Currently feeling a strong hold on them :)
