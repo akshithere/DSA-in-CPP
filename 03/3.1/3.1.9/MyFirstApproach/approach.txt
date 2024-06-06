@@ -1,0 +1,3 @@
+Sort the array 
+since it'll be from 1 to N
+so if the value at index i != i+1 return i+1 because it is the missing value

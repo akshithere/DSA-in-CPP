@@ -1,0 +1,5 @@
+Two pointer approach
+one pointer is at a non 0 location and 
+one pointer is iterating through the array
+it asks every element of the array, Hey are you 0? if yes then increase the count and move ahead
+if no then just at p1 + 1 location copy the element

@@ -53,3 +53,7 @@
 ## 2.2 Merge and Quick Sort (Recursive D&C algorithms)
 - Understood the new 2 D&C recursive algorithms i.e merge and quick sort
 - Revised all 5 algorithms the next day. Currently feeling a strong hold on them :)
+
+# 3. Array Problems
+## 3.1 Easy Array Problems
+- Currently have done 9 easy array problems

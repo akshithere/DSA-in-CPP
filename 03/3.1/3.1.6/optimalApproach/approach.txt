@@ -1,0 +1,8 @@
+Two pointer approach, lets assume 2 pointers as j and i
+we will traverse the array till we find the first 0th element and set j to its index
+and then we will start the loop again from i =  j+1 to remaining n and 
+follow a condition 
+if(arr[i] != 0){
+    swap(arr[i],arr[j]);
+    j++;
+}
