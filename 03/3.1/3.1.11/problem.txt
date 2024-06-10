@@ -1,0 +1,1 @@
+In an array where every number appears twice find the number which appears once

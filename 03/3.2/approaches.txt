@@ -1,0 +1,6 @@
+1. Brute-
+Sort the array
+2. Hashing-
+Hash the frequencies of 0,1,2 once
+and construct a temporary array and copy it to the og array
+3. Two Pointer Approach

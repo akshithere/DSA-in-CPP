@@ -1,0 +1,3 @@
+bhai missing number nikalna hai agar so do nothing just find the sum of 1 to N natural number
+find the sum of all the elements present in the array
+subtract S1-S2 you will get the missing number

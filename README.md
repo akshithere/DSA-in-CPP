@@ -57,3 +57,6 @@
 # 3. Array Problems
 ## 3.1 Easy Array Problems
 - Currently have done 9 easy array problems
+- Done all the easy problems in the sheet
+
+## 3.2 Medium Array Problems
