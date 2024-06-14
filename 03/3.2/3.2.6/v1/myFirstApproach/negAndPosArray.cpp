@@ -12,18 +12,16 @@ public:
         vector<int>pos;
         vector<int>neg;
        for(int i = 0; i < n; i++){
-        if(nums[i] < 0) continue;
-        pos.emplace_back(nums[i]);
+        if(nums[i] >= 0){
+            pos.emplace_back(nums[i]);
+        }else{
+            neg.emplace_back(nums[i]);
+        }
        } 
-       for(int i = 0; i < n; i++){
-        if(nums[i] >= 0) continue;
-        neg.emplace_back(nums[i]);
-       } 
-       for(int i = 0; i < n; i = i + 2){
-        nums[i] = pos[i/2];
-       }
-       for(int i = 1; i < n; i = i + 2){
-        nums[i] = neg[i/2];
+       
+       for(int i = 0; i < n/2; i++){
+        nums[2*i] = pos[i];
+        nums[2*i+1] = neg[i];
        }
         return nums;
     }
