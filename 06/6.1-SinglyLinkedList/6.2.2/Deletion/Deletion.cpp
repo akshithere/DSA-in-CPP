@@ -47,6 +47,49 @@ Node* deleteTail(Node*head){
     return head;
 }
 
+Node* deleteNode(Node* head, int k){
+Node* temp = head;
+Node* prev = NULL;
+if(head == NULL || head->next == NULL) return NULL;
+if(k == 1){
+head = head->next;
+free(temp);
+return head;
+}
+int cnt = 0;
+while(temp!=nullptr){
+     cnt++;
+     if(k == cnt){
+        prev->next = temp->next;
+        free(temp);
+        break;
+     }
+     prev = temp;
+     temp = temp->next;
+}
+return head;
+}
+
+Node* DeleteNodeVal(Node* head, int el){
+ if(head== NULL) return NULL;
+Node* temp = head;
+Node* prev = NULL;
+if(head->data == el){
+    head = head->next;
+    free(temp);
+}
+while(temp){
+    if(temp->data == el){
+        prev->next = temp->next;
+        free(temp);
+        free(prev);
+    }
+    prev = temp;
+    temp = temp->next;
+}
+return head;
+}
+
 void traverse(Node*head){
 Node* temp = head;
 while(temp){
@@ -58,7 +101,7 @@ cout << "nullptr\n";
 }
 
 int main(){
-vector<int> arr = {1,2,3,4};
+vector<int> arr = {1,2,3,4,5,6,7,8};
 
 Node* head = convertArrToLL(arr);
 
@@ -68,7 +111,14 @@ cout << "After Deleting head\n";
 head = deleteHead(head);
 traverse(head);    
 cout << "After Deleting tail\n";
-deleteTail(head);
-traverse(head);    
+head = deleteTail(head);
+traverse(head); 
+cout << "After Deleting 1,2,3,4 value element\n";
+head = DeleteNodeVal(head, 1);
+head = DeleteNodeVal(head, 2);
+head = DeleteNodeVal(head, 3);
+head = DeleteNodeVal(head, 4);
+
+traverse(head);      
  return 0;
  }
