@@ -1,0 +1,2 @@
+Find the middle of the given linked list if its odd just return the exact node
+If it is even then return the node next to the hypothetical middle
