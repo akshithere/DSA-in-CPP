@@ -1,0 +1,2 @@
+You will be given a linked list, It might have a loop and might not.
+If it has a loop find the length of the loop. If it does not have any loop just return 0
